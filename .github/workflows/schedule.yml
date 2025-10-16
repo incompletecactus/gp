@@ -40,4 +40,4 @@ jobs:
       # 如果需要精确控制运行时间，可以修改脚本，但通常不必，因为下次定时会重新启动。
       - name: Run Python Script
         # 请根据你实际的脚本文件名进行修改
-        run: python task_runner.py
+        run: PYTHONUNBUFFERED=1 python task_runner.py
