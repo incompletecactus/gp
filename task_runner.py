@@ -4,7 +4,7 @@ import requests
 import hashlib
 
 #用发的获取工具获取tokens和查询
-tokens = "ec522074d3aa17a9dc7ffa7f09ee4c0d"
+tokens = "7a639f7d6e528d41b821296fbeb252b1"
 #多账号用&分隔，token1&token2
 tokens = tokens.split("&")
 #https://tool.ip138.com/useragent/
